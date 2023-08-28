@@ -1,0 +1,12 @@
+D:\Work\_jimTools\谷歌秘钥\TyGAPC\TyGAPC\bin\Debug\TyGAPC.exe.config
+D:\Work\_jimTools\谷歌秘钥\TyGAPC\TyGAPC\bin\Debug\TyGAPC.exe
+D:\Work\_jimTools\谷歌秘钥\TyGAPC\TyGAPC\bin\Debug\TyGAPC.pdb
+D:\Work\_jimTools\谷歌秘钥\TyGAPC\TyGAPC\obj\Debug\TyGAPC.csproj.AssemblyReference.cache
+D:\Work\_jimTools\谷歌秘钥\TyGAPC\TyGAPC\obj\Debug\TyGAPC.csproj.SuggestedBindingRedirects.cache
+D:\Work\_jimTools\谷歌秘钥\TyGAPC\TyGAPC\obj\Debug\TyGAPC.GoogleAuthPcClient.InputDialog.resources
+D:\Work\_jimTools\谷歌秘钥\TyGAPC\TyGAPC\obj\Debug\TyGAPC.GoogleAuthPcClient.MainFrom.resources
+D:\Work\_jimTools\谷歌秘钥\TyGAPC\TyGAPC\obj\Debug\TyGAPC.GoogleAuthPcClient.Properties.Resources.resources
+D:\Work\_jimTools\谷歌秘钥\TyGAPC\TyGAPC\obj\Debug\TyGAPC.csproj.GenerateResource.cache
+D:\Work\_jimTools\谷歌秘钥\TyGAPC\TyGAPC\obj\Debug\TyGAPC.csproj.CoreCompileInputs.cache
+D:\Work\_jimTools\谷歌秘钥\TyGAPC\TyGAPC\obj\Debug\TyGAPC.exe
+D:\Work\_jimTools\谷歌秘钥\TyGAPC\TyGAPC\obj\Debug\TyGAPC.pdb

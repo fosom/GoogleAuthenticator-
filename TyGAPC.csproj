@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!--Project was exported from assembly: D:\Work\_jimTools\谷歌秘钥\TyGAPC\TyGAPC.exe-->
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{601DB72F-EDB5-4BBE-96EC-F29C4921A8B7}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AssemblyName>TyGAPC</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <TargetFrameworkProfile />
+    <ApplicationVersion>1.0.0.0</ApplicationVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="GoogleAuthPcClient\InputDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GoogleAuthPcClient\MainFrom.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GoogleAuthPcClient\DataService.cs" />
+    <Compile Include="GoogleAuthPcClient\GoogleKey.cs" />
+    <Compile Include="GoogleAuthPcClient\Program.cs" />
+    <Compile Include="GoogleAuthPcClient\Properties\Resources.cs" />
+    <Compile Include="GoogleAuthPcClient\Properties\Settings.cs" />
+    <Compile Include="OtpNet\Base32Encoding.cs" />
+    <Compile Include="OtpNet\IKeyProvider.cs" />
+    <Compile Include="OtpNet\InMemoryKey.cs" />
+    <Compile Include="OtpNet\KeyUtilities.cs" />
+    <Compile Include="OtpNet\Otp.cs" />
+    <Compile Include="OtpNet\OtpHashMode.cs" />
+    <Compile Include="OtpNet\TimeCorrection.cs" />
+    <Compile Include="OtpNet\Totp.cs" />
+    <Compile Include="OtpNet\VerificationWindow.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="TyGAPC\GoogleAuthPcClient\InputDialog.resx" />
+    <EmbeddedResource Include="TyGAPC\GoogleAuthPcClient\MainFrom.resx" />
+    <EmbeddedResource Include="TyGAPC\GoogleAuthPcClient\Properties\Resources.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
